@@ -1,2 +1,31 @@
 [
+	{
+        "name":   "Koss",
+        "phones": [
+			{"name":"KE5w","file":["Koss KE5w"]},
+			{"name":"KEB25ik","file":["Koss KEB25ik"]},
+			{"name":"Plug","file":["Koss Plug"]}
+		]
+	},
+	{
+		"name":   "LetShuoer",
+		"phones": [
+			{"name":"S12","file":["LetShuoer S12"]}
+		]
+	},
+	{
+		"name":   "MoonDrop",
+		"phones": [
+			{"name":"Quarks","file":["MoonDrop Quarks"]},
+			{"name":"Starfield","file":["MoonDrop Starfield"]}
+		]
+	
+	},
+	{
+		"name":   "Ucotech",
+		"phones": [
+			{"name":"RE2","file":["Ucotech RE2"]}
+		]
+	
+	}
 ]

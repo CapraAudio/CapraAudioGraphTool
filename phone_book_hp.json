@@ -1,2 +1,268 @@
 [
+	{
+        "name": "Capra Audio",
+        "phones": [
+            {
+                "name":"Satyr 1",
+                "file":["Satyr 1 Yaxi","Satyr 1 Geekria","Satyr 1","Satyr1 Dekoni Elite V TH900"],
+                "suffix":["(S1 - Yaxi Pads)","(S1 - Jeuocou Pads)","(S1 - Geekria Pads)","(S1 - Dekoni Elite Velour TH900 Pads)"],
+                "reviewScore":"$115",
+                "shopLink":"https://cults3d.com/en/3d-model/gadget/satyr-1-headphones"
+            },
+			{
+                "name":"CA800",
+                "file":["CA800v1","CA800v3"],
+                "suffix":["(S1 - v1 | Orpheus Pads","(S1 - v3 | Yaxi Pads)"]
+            },
+            {
+                "name":"Ouroboros",
+                "file":["Ouroboros"],
+                "suffix":["Canjam 2024 Unit"]
+            },
+			{
+                "name":"Faunus 1",
+                "file":["Faunus 1"],
+                "suffix":["(S1 - Yaxi Pads)"],
+                "reviewScore": "$90",
+                "shopLink": "https://cults3d.com/en/3d-model/gadget/faunus-1-headphones"
+            },
+			{
+                "name":"Prototype Pigmy 1",
+                "file":["Pigmy 1"],
+                "suffix":["(S1)"]
+            },
+			{
+                "name":"Prototype Axis",
+                "file":["Project Axis"],
+                "suffix":["(S1)"]
+            }
+        ]
+    },
+	{
+        "name": "AKG",
+        "phones": [
+            {
+                "name":"N700NC M2",
+                "file":["AKG N700NC M2 Wired","AKG N700NC M2 Wireless"],
+                "suffix":["(S1 - Wired)","(S1 - Bluetooth)"]
+            }
+        ]
+    },
+	{
+		"name": "Audeze",
+		"phones": [
+		   {
+            "name":"Maxwell",
+            "file":["Maxwell Stock Pads Wired","Maxwell Wicked Cushions Wired"],
+            "suffix":["(S1 - Stock Pads | Wired)","(S1 - Wicked Cusions Pads | Wired)"],
+            "reviewScore": "$300",
+            "shopLink": "https://www.audeze.com/products/maxwell-wireless-gaming-headset"
+            }
+		]
+	},
+	{
+        "name": "Aurorus Audio",
+        "phones": [
+            {
+                "name":"Australis",
+                "file":["Australis Stock Headband","Australis Capra Headband"],
+                "suffix":["(S1 - Stock Headband)","(S1 - Capra Audio Headband)"],
+                "reviewScore": "$900",
+                "shopLink": "https://www.aurorusaudio.com/Australis%C2%AE-p133657531"
+            }
+        ]
+    },
+	{
+        "name": "BeyerDynamic",
+        "phones": [
+            {
+                "name":"DT770",
+                "file":["DT770 32ohm"],
+                "suffix":["(S1 - 32ohm)"],
+                "reviewScore": "$150",
+                "shopLink": "https://www.amazon.com/Beyerdynamic-DT-770-32-Professional/dp/B07H45HG23"
+            }
+        ]
+    },
+	{
+        "name": "Denon",
+        "phones": [
+            {
+                "name":"AH-D2000",
+                "file":["Denon AH-D2000"],
+                "suffix":["(S1)"]
+            }
+        ]
+    },
+	{
+        "name": "EAE Audio",
+        "phones": [
+            {
+                "name":"DH100",
+                "file":["EAE Audio DH100"],
+                "suffix":["(S1)"]
+            }
+        ]
+    },
+    {
+        "name": "ETA",
+        "phones": [
+            {
+                "name":"O2",
+                "file":["ETA O2"],
+                "suffix":["(S1)"]
+            }
+        ]
+    },
+	{
+    "name": "Focal",
+    "phones": [
+            {
+                "name":"x Massdrop Elex",
+                "file":["Elex"],
+                "suffix":["(S1 - Ted)"],
+                "reviewScore": "$750",
+                "shopLink": "https://headphones.com/products/focal-elex-headphones"
+            }
+        ]
+    },
+	{
+        "name": "Hifiman",
+        "phones": [
+            {
+                "name":"HE400se",
+                "file":["HE400SE"],
+                "suffix":["(S1 - Ted)"],
+                "reviewScore": "$150",
+                "shopLink": "https://headphones.com/products/hifiman-he400se-entry-level-planar-magnetic-headphones"
+            }
+        ]
+    },
+	{
+        "name": "Koss",
+        "phones": [
+			{
+                "name":"Pro4s",
+                "file":["Pro4s"],
+                "suffix":["(S1)"]
+            },
+			{
+                "name":"KSC21",
+                "file":["KSC21"],
+                "suffix":["(S1)"]
+            },
+			{
+                "name":"ESP95x",
+                "file":["ESP95x","ESP95x Yaxi","ESP95x Dekoni Elite Fenestrated Sheepskin"],
+                "suffix":["(S1 - Stock Pads)","(S1 - Yaxi Pads)","(S1 - Dekoni Elite Fenestrated Sheepskin Pads)"]
+            },
+            {
+                "name":"KPH30i",
+                "file":["KPH30i Stock Pads","KPH30i Yaxi Pads","KPH30i Grado G Pads)"],
+                "suffix":["(S1 - Stock Pads)","(S1 - Yaxi Pads)","(S1 - Grado G Pads)"]
+            },
+			{
+                "name":"KTXPRO1",
+                "file":["KTXPRO1 Stock Pads","KTXPRO1 Yaxi Pads"],
+                "suffix":["Stock Pads","Yaxi Pads"]
+            },
+			{
+                "name":"KSC75",
+                "file":["KSC75 Stock Pads","KSC75 Yaxi Pads"],
+                "suffix":["(S1 - Stock Pads)","(S1 - Yaxi Pads)"]
+            },
+			{
+                "name":"PortaPro",
+                "file":["PortaPro Stock Pads","PortaPro Yaxi Pads"],
+                "suffix":["(S1 - Stock Pads)","(S1 - Yaxi Pads)"]
+            }
+		]
+	},
+	{
+        "name": "Mackie",
+        "phones": [
+            {
+                "name":"MC-450",
+                "file":["Mackie MC450"],
+                "suffix":["(S1)"]
+            }
+        ]
+    },
+	{
+        "name": "Parts Express",
+        "phones": [
+            {
+                "name":"Mini 240-015",
+                "file":["Mini 240-015"],
+                "suffix":["(S1)"]
+            }
+        ]
+    },
+	{
+        "name": "Phil",
+        "phones": [
+            {
+                "name":"Philphone",
+                "file":["Philphone"],
+                "suffix":["(S1)"]
+            }
+        ]
+    },
+    {
+        "name": "Sennheiser",
+        "phones": [
+            {
+                "name":"HD-650",
+                "file":["HD650","HD650 ZMF Perf Suede"],
+                "suffix":["(S1 - Stock Pads)","(S1 - ZMF Perforate Suede Pads)"]
+            },
+			{
+                "name":"x Massdrop HD-6XX",
+                "file":["HD6xx"],
+                "suffix":["(S1)"]
+            },
+			{
+                "name":"HD-599",
+                "file":["HD599"],
+                "suffix":["(S1)"]
+            },
+			{
+                "name":"x Massdrop HD-58X",
+                "file":["HD58x","HD58x ZMF Perf Suede"],
+                "suffix":["(S1 - Stock Pads)","(S1 - ZMF Perforate Suede Pads)"]
+            }
+        ]
+    },
+	{
+        "name": "Skullcandy",
+        "phones": [
+            {
+                "name":"Hesh 2",
+                "file":["Skullcandy Hesh 2"],
+                "suffix":["(S1)"]
+            }
+        ]
+    },
+	{
+        "name": "VectorFinese",
+        "phones": [
+            {
+                "name":"Headamame",
+                "file":["Headamame"],
+                "suffix":["(S1)"],
+                "reviewScore":"",
+                "shopLink":""
+            }
+        ]
+    },
+	{
+        "name": "V-Moda",
+        "phones": [
+            {
+                "name":"Crossfade Wireless",
+                "file":["Crossfade Wireless Wireless","Crossfade Wireless Wired"],
+                "suffix":["(S1 - Bluetooth Wireless)","(S1 - Wired)"]
+            }
+        ]
+    }
 ]

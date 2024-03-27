@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Vido",
+        "phones": [
+            {
+                "name": "Earbuds",
+                "file":["Vido Earbuds"],
+                "suffix":["(S1 - Hadoe | Blue)"],
+                "reviewScore": "N/A",
+                "price": "$5",
+                "shopLink": "N/A"
+            }
+        ]
+    },
+    {
+        "name": "NiceHCK",
+        "phones": [
+            {
+                "name": "EB2S Pro",
+                "file":["NiceHCK EB2S Pro"],
+                "suffix":["(S1 - Hadoe)"],
+                "reviewScore": "N/A",
+                "price": "$50",
+                "shopLink": "https://www.aliexpress.us/item/3256805418464331.html"
+            }
+        ]
+    }
+]
