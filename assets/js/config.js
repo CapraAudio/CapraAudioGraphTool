@@ -36,7 +36,7 @@ const init_phones = ["Generic JM-1 Target", "Ucotech RE2"],// Optional. Which gr
 
 // Specify which targets to display
 const targets = [
-    {type:"HRTF", files:["Generic JM-1", "Generic Delta"]},
+    {type:"HRTF", files:["JM-1 711"]},
 ];
 
 // Haruto's Addons
