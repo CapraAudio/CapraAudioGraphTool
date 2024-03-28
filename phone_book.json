@@ -8,12 +8,6 @@
 		]
 	},
 	{
-		"name":   "LetShuoer",
-		"phones": [
-			{"name":"S12","file":["LetShuoer S12"]}
-		]
-	},
-	{
 		"name":   "MoonDrop",
 		"phones": [
 			{"name":"Quarks","file":["MoonDrop Quarks"]},

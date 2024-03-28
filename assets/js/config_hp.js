@@ -216,10 +216,6 @@ let headerLogoText = "Capra-Audio",
     {
         name: "Headphones",
         url: "headphones.html"
-    },
-    {
-        name: "Earbuds",
-        url: "earbuds.html"
     }
 ];
 
