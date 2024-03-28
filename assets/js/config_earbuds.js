@@ -31,7 +31,7 @@ const init_phones = ["Generic Delta"],// Optional. Which graphs to display on in
       extraEnabled = true,                          // Enable extra features
       extraUploadEnabled = true,                    // Enable upload function
       extraEQEnabled = true,                        // Enable parametic eq function
-      extraEQBands = 3,                             // Default EQ bands available
+      extraEQBands = 10,                             // Default EQ bands available
       extraEQBandsMax = 20;                         // Max EQ bands available
 
 // Specify which targets to display
@@ -82,7 +82,7 @@ function watermark(svg) {
         .attr("opacity",0.2)
         .append("text")
         .attrs({x:765, y:314, "font-size":10, "text-anchor":"end", "class":"site_name"})
-        .text("graphtool.Capra-Audio.com");
+        .text("squig.capraaudio.com");
 }
 
 
@@ -206,15 +206,15 @@ let headerLogoText = "Capra-Audio",
     headerLinks = [
     {
         name: "IEMs",
-        url: "/"
+        url: "index.html"
     },
     {
         name: "Headphones",
-        url: "/headphones"
+        url: "headphones.html"
     },
     {
         name: "Earbuds",
-        url: "/earbuds"
+        url: "earbuds.html"
     }
 ];
 
