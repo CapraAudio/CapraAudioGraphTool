@@ -1,6 +1,6 @@
 // Configuration options
-const init_phones = ["KEMAR DF for KB-500x Target", "Satyr-1"], // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
-      DIR = "/data_hp/",                             // Directory where graph files are stored
+const init_phones = ["KEMAR DF for KB-500x Target", "Satyr 1"], // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+      DIR = "data_hp/",                             // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "Hz",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
       default_norm_db = 35,                         // Sets default dB normalization point
@@ -10,15 +10,13 @@ const init_phones = ["KEMAR DF for KB-500x Target", "Satyr-1"], // Optional. Whi
       alt_sticky_graph = true,                      // If active graphs overflows the viewport, does the graph scroll with the page or stick to the viewport?
       alt_animated = true,                          // Determines if new graphs are drawn with a 1-second animation, or appear instantly
       alt_header = true,                            // Display a configurable header at the top of the alt layout
-      alt_tutorial = false,                         // Display a configurable frequency response guide below the graph
-      alt_augment = true,                           // Display augment card in phone list, e.g. review sore, shop link
-      site_url = '',                                // URL of your graph "homepage"
+      alt_tutorial = true                          // Display a configurable frequency response guide below the graph
+      site_url = '/',                               // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
-      preference_bounds = "assets/images/bounds.png",  // Optional. If png file is present, display bounds image
       watermark_text = "Capra Audio",               // Optional. Watermark appears behind graphs
       watermark_image_url = "assets/images/Capra-Audio-Logo.png",// Optional. If image file is in same directory as config, can be just the filename
       page_title = "Capra Audio",                   // Optional. Appended to the page title if share URLs are enabled
-      page_description = "Capra Audio Squigtool or smth.",
+      page_description = "Capra Audio Squigtool.",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = false,                     // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
       expandable = false,                           // Enables button to expand iframe over the top of the parent page
@@ -36,21 +34,28 @@ const init_phones = ["KEMAR DF for KB-500x Target", "Satyr-1"], // Optional. Whi
       extraEQBands = 3,                             // Default EQ bands available
       extraEQBandsMax = 20,                         // Max EQ bands available
       num_samples = 5,                              // Number of samples to average for smoothing
-      scale_smoothing = 0.2,                        // Smoothing factor for scale transitions
-      PHONE_BOOK = "phone_book_hp.json",            // Path to phone book JSON file
-      REWenabled = true,                            // Enable REW import function
-      default_bass_shelf = 0,                       // Default Custom DF bass shelf value
-      default_tilt = -1.0,                          // Default Custom DF tilt value
-      default_ear = 0,                              // Default Custom DF ear gain value
-      default_treble = 0,                           // Default Custom DF treble gain value
-      default_DF_name = "KEMAR DF for KB-500x",     // Default RAW DF name
-      dfBaseline = false,                           // If true, DF is used as baseline when custom df tilt is on
-      tiltableTargets = ["KEMAR DF for KB-500x"];   // Targets that are allowed to be tilted
+      scale_smoothing = 0.2;                        // Smoothing factor for scale transitions
+      
 
 // Specify which targets to display
 const targets = [
-    { type:"",    files:["KEMAR DF for KB-500x"] },
+    { type:"HRTF",    files:["KEMAR DF for KB-500x"] },
 ];
+
+// Haruto's Addons
+const  preference_bounds_name = "Preference Bounds RAW", // Preference bounds name
+       preference_bounds_dir = "assets/pref_bounds/",    // Preference bounds directory
+       preference_bounds_startup = false,           // If true, preference bounds are displayed on startup
+       PHONE_BOOK = "phone_book_hp.json",           // Phone book file path & name
+       default_DF_name = "KEMAR DF for KB-500x",    // Default RAW DF name
+       dfBaseline = false,                          // Enable REW import function
+       default_bass_shelf = 0,                      // Default Custom DF bass shelf value
+       default_tilt = -1.0,                         // Default Custom DF tilt value
+       default_ear = 0,                             // Default Custom DF ear gain value
+       default_treble = 0,                          // Default Custom DF treble gain value
+       tiltableTargets = ["KEMAR DF for KB-500x"],  // Targets that are allowed to be tilted
+       compTargets = ["KEMAR DF for KB-500x"],      // Targets that are allowed to be used for compensation
+       allowCreatorSupport = false;                 // Allow the creator to have a button top right to support them
 
 
 
@@ -77,17 +82,12 @@ function watermark(svg) {
             .text(watermark_text);
     }
 
-    if ( preference_bounds ) {
-        wm.append("image")
-        .attrs({id:'bounds',x:-385, y:-365, width:770, height:770, "xlink:href":preference_bounds, "display":"none"});
-    }
-
     // Extra flair
     svg.append("g")
         .attr("opacity",0.2)
         .append("text")
         .attrs({x:765, y:314, "font-size":10, "text-anchor":"end", "class":"site_name"})
-        .text("graphtool.tedthepraimortis.com");
+        .text("graphtool.Capra-Audio.com");
 }
 
 
@@ -148,18 +148,6 @@ const linkSets = [
                 url: "https://iems.audiodiscourse.com/"
             },
             {
-                name: "Bad Guy",
-                url: "https://hbb.squig.link/"
-            },
-            {
-                name: "Banbeucmas",
-                url: "https://banbeu.com/graph/tool/"
-            },
-            {
-                name: "HypetheSonics",
-                url: "https://www.hypethesonics.com/iemdbc/"
-            },
-            {
                 name: "In-Ear Fidelity",
                 url: "https://crinacle.com/graphs/iems/graphtool/"
             },
@@ -172,12 +160,8 @@ const linkSets = [
                 url: "https://squig.link/"
             },
             {
-                name: "Timmy (Gizaudio)",
+                name: "Timmy",
                 url: "https://timmyv.squig.link/"
-            },
-            {
-                name: "Rohsa",
-                url: "https://rohsa.gitlab.io/graphtool/"
             },
         ]
     },
@@ -191,6 +175,10 @@ const linkSets = [
             {
                 name: "In-Ear Fidelity",
                 url: "https://crinacle.com/graphs/headphones/graphtool/"
+            },
+            {
+                name: "Listener",
+                url: "https://listener800.github.io/"
             },
             {
                 name: "Super* Review",
@@ -223,16 +211,16 @@ let headerLogoText = "Capra-Audio",
     headerLinks = [
     {
         name: "IEMs",
-        url: "index.html"
+        url: "/"
     },
     {
         name: "Headphones",
-        url: "headphones.html"
+        url: "/headphones"
     },
     {
         name: "Earbuds",
-        url: "earbuds.html"
-    },
+        url: "/earbuds"
+    }
 ];
 
 // Source: https://www.teachmeaudio.com/mixing/techniques/audio-spectrum
