@@ -1,24 +1,87 @@
+
 [
+	{
+		"name":   "Hisenior",
+		"phones": [
+			{"name":"Mega5est","file":["Mega5est"],
+	         "suffix":["(S1 | Brian)"]
+			}]
+	},
 	{
         "name":   "Koss",
         "phones": [
-			{"name":"KE5w","file":["Koss KE5w"]},
-			{"name":"KEB25ik","file":["Koss KEB25ik"]},
-			{"name":"Plug","file":["Koss Plug"]}
+			{"name":"KE5w","file":["Koss KE5w"],
+	         "suffix":["(S1 | Brian)"]
+			},
+			{"name":"KEB25ik","file":["Koss KEB25ik"],
+	         "suffix":["(S1 | Brian)"]
+			},
+			{"name":"Plug","file":["Koss Plug"],
+	         "suffix":["(S1 | Brian)"]
+			}
+		]
+	},
+	{
+		"name":   "LetShuoer",
+		"phones": [
+			{"name":"S12","file":["LetShuoer S12"],
+	         "suffix":["(S1 | Brian)"]
+			}
 		]
 	},
 	{
 		"name":   "MoonDrop",
 		"phones": [
-			{"name":"Quarks","file":["MoonDrop Quarks"]},
-			{"name":"Starfield","file":["MoonDrop Starfield"]}
+			{"name":"Quarks","file":["MoonDrop Quarks","Moondrop Quark Cal Ryder"],
+	         "suffix":["(S1 | Brian)","(S2 | Brian)"]},
+			{"name":"Starfield","file":["MoonDrop Starfield"],
+	         "suffix":["(S1 | Brian)"]}
+		]
+	},
+	{
+		"name":   "Salnotes",
+		"phones": [
+			{"name":"Zero","file":["Salnotes Zero"],
+	         "suffix":["(S1 | Brian)"]}
+		]
+	
+	},
+	{
+		"name":   "Symphonium",
+		"phones": [
+			{"name":"Crimson",
+			 "file":["Symphonium Crimson Black Tips","Symphonium Crimson Grey Tips"],
+			 "suffix":["(S1 | Brian | Black Tips)","(S1 | Brian | Grey Tips)"]
+			 }
+		]
+	},
+	{
+		"name":   "Tanchjim",
+		"phones": [
+			{"name":"Ola","file":["Tanchjim Ola"],
+	         "suffix":["(S1 | Brian)"]},
+			{"name":"Tanya","file":["Tanchjim Tanya"],
+	         "suffix":["(S1 | Brian)"]}
+			 
+		]
+	
+	},
+	{
+		"name":   "Truthear",
+		"phones": [
+			{"name":"Hola","file":["Truthear Hola"],
+	         "suffix":["(S1 | Brian)"]},
+			{"name":"Zero Red","file":["Truthear Zero Red"],
+	         "suffix":["(S1 | Brian)"]}
+			 
 		]
 	
 	},
 	{
 		"name":   "Ucotech",
 		"phones": [
-			{"name":"RE2","file":["Ucotech RE2"]}
+			{"name":"RE2","file":["Ucotech RE2"],
+	         "suffix":["(S1 | Brian)"]}
 		]
 	
 	}

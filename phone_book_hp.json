@@ -2,39 +2,52 @@
 	{
         "name": "Capra Audio",
         "phones": [
+		    {
+                "name":"Ouroboros",
+                "file":["Ouroboros","Project Axis Foam"],
+                "suffix":["(S1 | Brian )","(S1 | Front Foam | Brian )"]
+				
+			},
             {
                 "name":"Satyr 1",
-                "file":["Satyr 1 Yaxi","Satyr 1 Geekria","Satyr 1","Satyr1 Dekoni Elite V TH900"],
-                "suffix":["(S1 - Yaxi Pads)","(S1 - Jeuocou Pads)","(S1 - Geekria Pads)","(S1 - Dekoni Elite Velour TH900 Pads)"],
-                "reviewScore":"$115",
+                "file":["Satyr 1 Yaxi",
+						"Satyr 1 Geekria",
+						"Satyr 1",
+						"Satyr1 Dekoni Elite V TH900",
+						"Satyr1 Yaxi Pads MPore Mod",
+						"Satyr1 Geekria Pads MPore Mod",
+						"Satyr1 Dekoni TH900 Elite Velour Pads MPore Mod"
+						],
+                "suffix":["(S1 | Brian | Yaxi Pads)",
+						  "(S1 | Brian | Jeuocou Pads)",
+						  "(S1 | Brian | Geekria Pads)",
+						  "(S1 | Brian | Dekoni Elite Velour TH900 Pads)",
+						  "(S1 | Brian | Yaxi Pads Micropore Mod)",
+						  "(S1 | Brian | Geekria Pads Micropore Mod)",
+						  "(S1 | Brian | Dekoni Elite Velour TH900 Pads Micropore Mod)"],
+                "reviewScore":"",
                 "shopLink":"https://cults3d.com/en/3d-model/gadget/satyr-1-headphones"
             },
 			{
                 "name":"CA800",
                 "file":["CA800v1","CA800v3"],
-                "suffix":["(S1 - v1 | Orpheus Pads","(S1 - v3 | Yaxi Pads)"]
-            },
-            {
-                "name":"Ouroboros",
-                "file":["Ouroboros"],
-                "suffix":["Canjam 2024 Unit"]
+                "suffix":["(S1 | Brian | v1 | Orpheus Pads","(S1 | Brian | v3 | Yaxi Pads)"]
             },
 			{
                 "name":"Faunus 1",
-                "file":["Faunus 1"],
-                "suffix":["(S1 - Yaxi Pads)"],
-                "reviewScore": "$90",
+                "file":["Faunus 1.1 AVG",
+						"Faunus 1",
+						"Faunus 1 No pres"],
+                "suffix":["(S1 | Brian | v1.1(AVG))",
+						  "(S1 | Brian | v1 Pressure)",
+						  "(S1 | Brian | v1 No Pressure)"],
+                "reviewScore": "89.99",
                 "shopLink": "https://cults3d.com/en/3d-model/gadget/faunus-1-headphones"
             },
 			{
                 "name":"Prototype Pigmy 1",
                 "file":["Pigmy 1"],
-                "suffix":["(S1)"]
-            },
-			{
-                "name":"Prototype Axis",
-                "file":["Project Axis"],
-                "suffix":["(S1)"]
+                "suffix":["(S1 | Brian )"]
             }
         ]
     },
@@ -44,7 +57,7 @@
             {
                 "name":"N700NC M2",
                 "file":["AKG N700NC M2 Wired","AKG N700NC M2 Wireless"],
-                "suffix":["(S1 - Wired)","(S1 - Bluetooth)"]
+                "suffix":["(S1 | Brian | Wired)","(S1 | Brian | Bluetooth)"]
             }
         ]
     },
@@ -54,7 +67,7 @@
 		   {
             "name":"Maxwell",
             "file":["Maxwell Stock Pads Wired","Maxwell Wicked Cushions Wired"],
-            "suffix":["(S1 - Stock Pads | Wired)","(S1 - Wicked Cusions Pads | Wired)"],
+            "suffix":["(S1 | Brian | Stock Pads | Wired)","(S1 | Brian | Wicked Cusions Pads | Wired)"],
             "reviewScore": "$300",
             "shopLink": "https://www.audeze.com/products/maxwell-wireless-gaming-headset"
             }
@@ -66,7 +79,7 @@
             {
                 "name":"Australis",
                 "file":["Australis Stock Headband","Australis Capra Headband"],
-                "suffix":["(S1 - Stock Headband)","(S1 - Capra Audio Headband)"],
+                "suffix":["(S1 | Brian | Stock Headband)","(S1 | Brian | Capra Audio Headband)"],
                 "reviewScore": "$900",
                 "shopLink": "https://www.aurorusaudio.com/Australis%C2%AE-p133657531"
             }
@@ -78,7 +91,7 @@
             {
                 "name":"DT770",
                 "file":["DT770 32ohm"],
-                "suffix":["(S1 - 32ohm)"],
+                "suffix":["(S1 | Brian | 32ohm)"],
                 "reviewScore": "$150",
                 "shopLink": "https://www.amazon.com/Beyerdynamic-DT-770-32-Professional/dp/B07H45HG23"
             }
@@ -90,7 +103,7 @@
             {
                 "name":"AH-D2000",
                 "file":["Denon AH-D2000"],
-                "suffix":["(S1)"]
+                "suffix":["(S1 | Brian)"]
             }
         ]
     },
@@ -100,7 +113,7 @@
             {
                 "name":"DH100",
                 "file":["EAE Audio DH100"],
-                "suffix":["(S1)"]
+                "suffix":["(S1 | Brian)"]
             }
         ]
     },
@@ -110,21 +123,21 @@
             {
                 "name":"O2",
                 "file":["ETA O2"],
-                "suffix":["(S1)"]
+                "suffix":["(S1 | Brian)"]
             }
         ]
     },
 	{
     "name": "Focal",
     "phones": [
-            {
-                "name":"x Massdrop Elex",
-                "file":["Elex"],
-                "suffix":["(S1 - Ted)"],
-                "reviewScore": "$750",
-                "shopLink": "https://headphones.com/products/focal-elex-headphones"
-            }
-        ]
+        {
+            "name":"x Massdrop Elex",
+            "file":["Elex"],
+            "suffix":["(S1 | Brian | Ted)"],
+            "reviewScore": "$750",
+            "shopLink": "https://headphones.com/products/focal-elex-headphones"
+        }
+    ]
     },
 	{
         "name": "Hifiman",
@@ -132,9 +145,25 @@
             {
                 "name":"HE400se",
                 "file":["HE400SE"],
-                "suffix":["(S1 - Ted)"],
+                "suffix":["(S1 | Brian)"],
                 "reviewScore": "$150",
                 "shopLink": "https://headphones.com/products/hifiman-he400se-entry-level-planar-magnetic-headphones"
+            }
+        ]
+    },
+	{
+        "name": "JBL",
+        "phones": [
+            {
+                "name":"TUNE760ANC",
+                "file":["JBL TUNE760ANC Wireless ANC on",
+						"JBL TUNE760ANC Wireless ANC off",
+						"JBL TUNE760ANC Wired"],
+                "suffix":["(S1 | Brian | Wireless ANC on)",
+						  "(S1 | Brian | Wireless ANC off)",
+						  "(S1 | Brian | Wired)"],
+                "reviewScore": "",
+                "shopLink": ""
             }
         ]
     },
@@ -144,37 +173,37 @@
 			{
                 "name":"Pro4s",
                 "file":["Pro4s"],
-                "suffix":["(S1)"]
+                "suffix":["(S1 | Brian)"]
             },
 			{
                 "name":"KSC21",
                 "file":["KSC21"],
-                "suffix":["(S1)"]
+                "suffix":["(S1 | Brian)"]
             },
 			{
                 "name":"ESP95x",
                 "file":["ESP95x","ESP95x Yaxi","ESP95x Dekoni Elite Fenestrated Sheepskin"],
-                "suffix":["(S1 - Stock Pads)","(S1 - Yaxi Pads)","(S1 - Dekoni Elite Fenestrated Sheepskin Pads)"]
+                "suffix":["(S1 | Brian | Stock Pads)","(S1 | Brian | Yaxi Pads)","(S1 | Brian | Dekoni Elite Fenestrated Sheepskin Pads)"]
             },
             {
                 "name":"KPH30i",
                 "file":["KPH30i Stock Pads","KPH30i Yaxi Pads","KPH30i Grado G Pads)"],
-                "suffix":["(S1 - Stock Pads)","(S1 - Yaxi Pads)","(S1 - Grado G Pads)"]
+                "suffix":["(S1 | Brian | Stock Pads)","(S1 | Brian | Yaxi Pads)","(S1 | Brian | Grado G Pads)"]
             },
 			{
                 "name":"KTXPRO1",
                 "file":["KTXPRO1 Stock Pads","KTXPRO1 Yaxi Pads"],
-                "suffix":["Stock Pads","Yaxi Pads"]
+                "suffix":["(S1 | Brian | Stock Pads)","(S1 | Brian | Yaxi Pads)"]
             },
 			{
                 "name":"KSC75",
                 "file":["KSC75 Stock Pads","KSC75 Yaxi Pads"],
-                "suffix":["(S1 - Stock Pads)","(S1 - Yaxi Pads)"]
+                "suffix":["(S1 | Brian | Stock Pads)","(S1 | Brian | Yaxi Pads)"]
             },
 			{
                 "name":"PortaPro",
                 "file":["PortaPro Stock Pads","PortaPro Yaxi Pads"],
-                "suffix":["(S1 - Stock Pads)","(S1 - Yaxi Pads)"]
+                "suffix":["(S1 | Brian | Stock Pads)","(S1 | Brian | Yaxi Pads)"]
             }
 		]
 	},
@@ -184,7 +213,7 @@
             {
                 "name":"MC-450",
                 "file":["Mackie MC450"],
-                "suffix":["(S1)"]
+                "suffix":["(S1 | Brian)"]
             }
         ]
     },
@@ -194,7 +223,7 @@
             {
                 "name":"Mini 240-015",
                 "file":["Mini 240-015"],
-                "suffix":["(S1)"]
+                "suffix":["(S1 | Brian)"]
             }
         ]
     },
@@ -203,8 +232,8 @@
         "phones": [
             {
                 "name":"Philphone",
-                "file":["Philphone"],
-                "suffix":["(S1)"]
+                "file":["Philphone (Dilupus)","Philphone (Frankenrose)"],
+                "suffix":["(S1 | Dilupus 300Ω | Brian)(AVG)","(S1 | Frankenrose 300Ω | Brian)(AVG)"]
             }
         ]
     },
@@ -214,22 +243,22 @@
             {
                 "name":"HD-650",
                 "file":["HD650","HD650 ZMF Perf Suede"],
-                "suffix":["(S1 - Stock Pads)","(S1 - ZMF Perforate Suede Pads)"]
+                "suffix":["(S1 | Brian | Stock Pads)","(S1 | Brian | ZMF Perforate Suede Pads)"]
             },
 			{
                 "name":"x Massdrop HD-6XX",
                 "file":["HD6xx"],
-                "suffix":["(S1)"]
+                "suffix":["(S1 | Brian)"]
             },
 			{
                 "name":"HD-599",
                 "file":["HD599"],
-                "suffix":["(S1)"]
+                "suffix":["(S1 | Brian)"]
             },
 			{
                 "name":"x Massdrop HD-58X",
                 "file":["HD58x","HD58x ZMF Perf Suede"],
-                "suffix":["(S1 - Stock Pads)","(S1 - ZMF Perforate Suede Pads)"]
+                "suffix":["(S1 | Brian | Stock Pads)","(S1 | Brian | ZMF Perforate Suede Pads)"]
             }
         ]
     },
@@ -239,20 +268,79 @@
             {
                 "name":"Hesh 2",
                 "file":["Skullcandy Hesh 2"],
-                "suffix":["(S1)"]
+                "suffix":["(S1 | Brian | Wired)"]
             }
         ]
     },
 	{
-        "name": "VectorFinese",
+        "name": "Sony",
         "phones": [
             {
-                "name":"Headamame",
-                "file":["Headamame"],
-                "suffix":["(S1)"],
-                "reviewScore":"",
-                "shopLink":""
+                "name":"MDR7506",
+                "file":["Sony MDR7506"],
+                "suffix":["(S1 | Brian | Stock Pads)"]
             }
+        ]
+    },
+	{
+        "name": "Head(amame)",
+        "phones": [
+            {
+                "name":"Headamame v1",
+                "file":["Headamame V1 40mm BDNC Perf Leather",
+						"Headamame V1 40mm BDNC Solid Leather",
+						"Headamame V1 40mm Peerless Perf Leather",
+						"Headamame V1 40mm Peerless Solid Leather",
+						"Headamame V1 50mm Peerless Perf Leather",
+						"Headamame V1 50mm Peerless Solid Leather"],
+                "suffix":["(S1 | Brian | 40mm BDNC Driver Perforate Leather Pads)",
+						  "(S1 | Brian | 40mm BDNC Driver Solid Leather Pads)",
+						  "(S1 | Brian | 40mm Peerless Driver Perforated Leather Pads)",
+						  "(S1 | Brian | 40mm Peerless Driver Solid Leather Pads)",
+						  "(S1 | Brian | 50mm Peerless Driver Perforated Leather Pads)",
+						  "(S1 | Brian | 50mm Peerless Driver Solid Leather Pads)"],
+                "reviewScore":"",
+                "shopLink":"https://headamame.com/"
+            },
+			{
+				"name":"Headamame v1 (Capra Tuning)",
+                "file":["Headamame V1 40mm BDNC Capra Tuned",
+						"Headamame V1 40mm Peerless Capra Tuned",
+						"Headamame V1 50mm Peerless Capra Tuned"],
+                "suffix":["(S1 | Brian | 40mm BDNC Driver)",
+						  "(S1 | Brian | 40mm Peerless Driver)",
+						  "(S1 | Brian | 50mm Peerless Driver)"],
+                "reviewScore": "",
+                "shopLink": "https://github.com/CapraAudio/Headamame-Capra-Tuning/wiki"
+			},
+			{
+			    "name":"Headamame v2 Open Back",
+                "file":["Headamame V2 Open 40mm BDNC Perforated leather pads",
+						"Headamame V2 Open 40mm BDNC Solid leather pads",
+						"Headamame V2 Open 40mm Peerless Perforated leather pads",
+						"Headamame V2 Open 40mm Peerless Solid leather pads",
+						"Headamame V2 Open 50mm Peerless Perforated leather pads",
+						"Headamame V2 Open 50mm Peerless Solid leather pads"],
+                "suffix":["(S1 | Brian |  40mm BDNC Driver Perforate Leather Pads)",
+						  "(S1 | Brian | 40mm BDNC Driver Solid Leather Pads)",
+						  "(S1 | Brian | 40mm Peerless Driver Perforated Leather Pads)",
+						  "(S1 | Brian | 40mm Peerless Driver Solid Leather Pads)",
+						  "(S1 | Brian | 50mm Peerless Driver Perforated Leather Pads)",
+						  "(S1 | Brian | 50mm Peerless Driver Solid Leather Pads)"],
+                "reviewScore":"",
+                "shopLink":"https://headamame.com/"
+			},
+			{
+				"name":"Headamame v2 Open Back (Capra Tuning)",
+                "file":["Headamame V2 Open 40mm BDNC Capra Tuned",
+						"Headamame V2 Open 40mm Peerless Capra Tuned",
+						"Headamame V2 Open 50mm Peerless Capra Tuned"],
+                "suffix":["(S1 | Brian | 40mm BDNC Driver)",
+						  "(S1 | Brian | 40mm Peerless Driver)",
+						  "(S1 | Brian | 50mm Peerless Driver)"],
+                "reviewScore": "",
+                "shopLink": "https://github.com/CapraAudio/Headamame-Capra-Tuning/wiki"
+			}
         ]
     },
 	{
@@ -261,8 +349,23 @@
             {
                 "name":"Crossfade Wireless",
                 "file":["Crossfade Wireless Wireless","Crossfade Wireless Wired"],
-                "suffix":["(S1 - Bluetooth Wireless)","(S1 - Wired)"]
+                "suffix":["(S1 | Brian | Bluetooth Wireless)","(S1 - Wired)"]
+            }
+        ]
+    },
+	{
+        "name": "Yamaha",
+        "phones": [
+            {
+                "name":"YH-5000SE",
+                "file":["Yamaha YH5K Velour Pads",
+				        "Yamaha YH5K Perforated Leather Pads",
+						"Yamaha YH5K Capra Tuning"],
+                "suffix":["(S1 | Brian | Stock Velour Pads(AVG))",
+						  "(S1 | Brian | Stock Perforated Leather Pads(AVG))",
+						  "(S1 | Brian | Capra Tuning)"]
             }
         ]
     }
+
 ]
