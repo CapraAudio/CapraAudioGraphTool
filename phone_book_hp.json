@@ -140,6 +140,18 @@
     ]
     },
 	{
+	"name": "Grado",
+    	"phones": [
+        {
+            "name":"SR60X",
+            "file":["Grado SR60X AVG Stock Pads",
+		    "Grado SR60X Yaxi S Cush",
+	     	    "Grado SR60X Grado G Pad"],
+            "suffix":["(S1 | Brian | Stock Pads)",
+		      "(S1 | Brian | Yaxi S Cushion Pads)",
+		      "(S1 | Brian | Vever G Pads)"]
+       }
+	{
         "name": "Hifiman",
         "phones": [
             {
