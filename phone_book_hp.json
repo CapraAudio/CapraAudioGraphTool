@@ -130,6 +130,11 @@
 	{
     "name": "Focal",
     "phones": [
+	 {
+            "name":"Bathys",
+            "file":["Focal Bathys Wireless AVG","Focal Bathys Wired AVG"],
+            "suffix":["(S1 | Brian | Wireless)","(S1 | Brian | Wired)"]
+        },
         {
             "name":"x Massdrop Elex",
             "file":["Elex"],
