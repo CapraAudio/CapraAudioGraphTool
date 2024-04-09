@@ -278,7 +278,20 @@
                 "name":"x Massdrop HD-58X",
                 "file":["HD58x","HD58x ZMF Perf Suede"],
                 "suffix":["(S1 | Brian | Stock Pads)","(S1 | Brian | ZMF Perforate Suede Pads)"]
-            }
+            },
+	    {
+            	"name":"HD800s",
+           	 "file":["HD800s AVG Stock Pads",
+			 "HD800s AVG Dekoni Elite Hybrid Pads",
+			 "HD800s AVG Dekoni Elite Perforated Leather Pads",
+			 "HD800s AVG Kito Pads",
+			 "HD800s AVG Yaxi Pads"],
+            	"suffix":["(S1 | Brian | Stock Pads)",
+			  "(S1 | Brian | Dekoni Elite Hybrid Pads)",
+			  "(S1 | Brian | Dekoni Elite Perforated Leather Pads",
+			  "(S1 | Brian | Kito Pads)",
+			  "(S1 | Brian | Yaxi Pads)"]
+			}
         ]
     },
 	{
