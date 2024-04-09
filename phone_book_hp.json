@@ -187,6 +187,18 @@
         ]
     },
 	{
+        "name": "JVC",
+        "phones": [
+            {
+                "name":"Victor HA-WM90B",
+                "file":["JVC-Victor HA-WM90B"],
+                "suffix":["(S1 | Brian)"],
+                "reviewScore": "",
+                "shopLink": ""
+            }
+        ]
+    },
+	{
         "name": "Koss",
         "phones": [
 			{
