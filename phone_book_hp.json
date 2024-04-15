@@ -273,8 +273,20 @@
         "phones": [
             {
                 "name":"HD-650",
-                "file":["HD650","HD650 ZMF Perf Suede"],
-                "suffix":["(S1 | Brian | Stock Pads)","(S1 | Brian | ZMF Perforate Suede Pads)"]
+                "file":["HD650",
+			"HD650 ZMF Perf Suede",
+			"HD650 AHG Velour Pads",
+			"HD650 Geekria Velour Pads",
+			"HD650 GVOEARS Velour Pads",
+			"HD650 Sodorous Cloth",
+			"HD650 Transtek Cloth"],
+                "suffix":["(S1 | Brian | Stock Pads)",
+			  "(S1 | Brian | ZMF Perforate Suede Pads)",
+			  "(S1 | Brian | AHG Velour Pads)",
+			  "(S1 | Brian | Geekria Velour Pads)",
+			  "(S1 | Brian | GVOEARS Velour Pads)",
+			  "(S1 | Brian | Sodorous Cloth Pads)",
+			  "(S1 | Brian | Transtek Cloth Pads)"]
             },
 			{
                 "name":"x Massdrop HD-6XX",
