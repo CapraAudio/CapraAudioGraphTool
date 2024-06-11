@@ -28,6 +28,11 @@
                 "reviewScore":"",
                 "shopLink":"https://cults3d.com/en/3d-model/gadget/satyr-1-headphones"
             },
+		{
+                "name":"Satyr 2",
+                "file":["Satyr 2 ZMF Perf Suede"],
+                "suffix":["(S1 | Brian | Satyr 2 ZMF Perforated Suede Pads)"]
+            },
 			{
                 "name":"CA800",
                 "file":["CA800v1","CA800v3"],
