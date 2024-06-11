@@ -30,8 +30,10 @@
             },
 		{
                 "name":"Satyr 2",
-                "file":["Satyr 2 ZMF Perf Suede"],
-                "suffix":["(S1 | Brian | Satyr 2 ZMF Perforated Suede Pads)"]
+                "file":["Satyr 2 HD600 Pads",
+			"Satyr 2 ZMF Perf Suede","Satyr 2 HD600 Pads"],
+                "suffix":["(S1 | Brian | Satyr 2 HD600 Pads)",
+			  "(S1 | Brian | Satyr 2 ZMF Perforated Suede Pads)"]
             },
 			{
                 "name":"CA800",
