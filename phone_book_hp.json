@@ -89,14 +89,21 @@
 	{
         "name": "Aurorus Audio",
         "phones": [
+			{
+                "name":"Borealis",
+                "file":["Aurorus Borealis (Ruck)"],
+                "suffix":["(S1 | Brian)"],
+                "reviewScore": "$900",
+                "shopLink": "https://www.aurorusaudio.com/Borealis%C2%AE-p133657519"
+            },
             {
                 "name":"Australis",
-                "file":["Australis Stock Headband","Australis Capra Headband"],
-                "suffix":["(S1 | Brian | Stock Headband)","(S1 | Brian | Capra Audio Headband)"],
+                "file":["Aurorus Australis (Ruck)"],
+                "suffix":["(S1 | Brian)"],
                 "reviewScore": "$900",
                 "shopLink": "https://www.aurorusaudio.com/Australis%C2%AE-p133657531"
-            }
-        ]
+	     }
+	]
     },
 	{
         "name": "BeyerDynamic",
@@ -121,6 +128,16 @@
         ]
     },
 	{
+        "name": "Dan Clark Audio",
+        "phones": [
+            {
+                "name":"E3",
+                "file":["DCA E3"],
+                "suffix":["(S1 | Brian)"]
+            }
+        ]	
+	},
+	{
         "name": "EAE Audio",
         "phones": [
             {
@@ -135,7 +152,19 @@
         "phones": [
             {
                 "name":"O2",
-                "file":["ETA O2"],
+                "file":["ETA O2",
+						"ETA O2 (Carlos)"],
+                "suffix":["(S1 | Brian)",
+						  "(S2 | Brian)"]
+            },
+			{
+                "name":"Genisis-G",
+                "file":["ETA Gen G (Carlos)"],
+                "suffix":["(S1 | Brian)"]
+            },
+			{
+                "name":"Mini C",
+                "file":["ETA Mini C (Carlos)"],
                 "suffix":["(S1 | Brian)"]
             }
         ]
@@ -262,6 +291,21 @@
         ]
     },
 	{
+        "name": "Moondrop",
+        "phones": [
+            {
+                "name":"Para",
+                "file":["Moondrop Para"],
+                "suffix":["(S1 | Brian)"]
+            },
+			{
+                "name":"Void",
+                "file":["Moondrop Void"],
+                "suffix":["(S1 | Brian)"]
+            }
+        ]
+    },
+	{
         "name": "Parts Express",
         "phones": [
             {
@@ -330,7 +374,12 @@
 			  "(S1 | Brian | Dekoni Elite Perforated Leather Pads",
 			  "(S1 | Brian | Kito Pads)",
 			  "(S1 | Brian | Yaxi Pads)"]
-			}
+			},
+		{
+                "name":"HD-500A",
+                "file":["Senn HD500A"],
+                "suffix":["(S1 | Brian)"]
+            }
         ]
     },
 	{
@@ -437,6 +486,29 @@
 						  "(S1 | Brian | Capra Tuning)"]
             }
         ]
-    }
+    },
+	{
+        "name": "ZMF",
+        "phones": [
+            {
+                "name":"Atrium Closed",
+                "file":["ZMF Atrium Closed"],
+                "suffix":["(S1 | Brian | Perforated Suede Pads)"]
+            },
+			{
+                "name":"Verite Closed",
+                "file":["ZMF Verite Closed"],
+                "suffix":["(S1 | Brian | Solid Leather Pads)"]
+            },
+			{
+                "name":"Auteur",
+                "file":["ZMF Auteur (Modded by VanHai)"],
+                "suffix":["(S1 | Brian | Modded by VanHai)"]
+            },
+			{
+                "name":"Aeolus",
+                "file":["ZMF Aeolus (Modded by VanHai)"],
+                "suffix":["(S1 | Brian | Modded by VanHai)"]
+            }
 
 ]
