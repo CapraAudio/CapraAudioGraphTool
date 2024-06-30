@@ -153,9 +153,9 @@
             {
                 "name":"O2",
                 "file":["ETA O2",
-						"ETA O2 (Carlos)"],
+			"ETA O2 (Carlos)"],
                 "suffix":["(S1 | Brian)",
-						  "(S2 | Brian)"]
+		          "(S2 | Brian)"]
             },
 			{
                 "name":"Genisis-G",
@@ -510,5 +510,6 @@
                 "file":["ZMF Aeolus (Modded by VanHai)"],
                 "suffix":["(S1 | Brian | Modded by VanHai)"]
             }
-
+	]
+     }
 ]
