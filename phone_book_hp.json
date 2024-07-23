@@ -83,6 +83,13 @@
             "suffix":["(S1 | Brian | Stock Pads | Wired)","(S1 | Brian | Wicked Cusions Pads | Wired)"],
             "reviewScore": "$300",
             "shopLink": "https://www.audeze.com/products/maxwell-wireless-gaming-headset"
+            },
+	    {
+	    "name":"MM500",
+            "file":["MM500"],
+            "suffix":["(S1 | Brian)"],
+            "reviewScore": "$1699",
+            "shopLink": ""
             }
 		]
 	},
