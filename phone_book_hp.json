@@ -196,8 +196,18 @@
             "shopLink": "https://headphones.com/products/focal-elex-headphones"
         }
     ]
+    },	
+    {
+    "name": "FiiO",
+    "phones": [
+	 {
+            "name":"FT1",
+            "file":["FiiO FT1"],
+            "suffix":["(S1 | Brian)"]
+        }
+    ]
     },
-	{
+    {
 	"name": "Grado",
     	"phones": [
         {
