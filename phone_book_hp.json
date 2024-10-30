@@ -347,6 +347,16 @@
         ]
     },
     {
+        "name": "Ploopy",
+        "phones": [
+            {
+                "name":"Ploopyphone",
+                "file":["Ploopyphone","PloopyDSP"],
+                "suffix":["(S1 | Raw | Brian)","(S1 | With DSP Module | Brian)"]
+            }
+        ]
+    },
+    {
         "name": "Sennheiser",
         "phones": [
             {
