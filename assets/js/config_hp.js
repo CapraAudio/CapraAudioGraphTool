@@ -39,7 +39,7 @@ const init_phones = ["KEMAR DF (KB50xx) Target", "Ouroboros"], // Optional. Whic
 
 // Specify which targets to display
 const targets = [
-    { type:"HRTF",    files:["KEMAR DF (KB50xx)"] },
+    { type:"HRTF",    files:["KEMAR DF (KB50xx)","KEMAR DF (KB50xx, Smooth) Target"] },
 ];
 
 // Haruto's Addons
