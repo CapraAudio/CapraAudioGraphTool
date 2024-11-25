@@ -1,5 +1,5 @@
 // Configuration options
-const init_phones = ["KEMAR DF (KB50xx) Target", "Ouroboros"], // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+const init_phones = ["KEMAR DF (KB50xx)", "Ouroboros"], // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data_hp/",                             // Directory where graph files are stored
       default_channels = ["L","R"],                 // Which channels to display. Avoid javascript errors if loading just one channel per phone
       default_normalization = "Hz",                 // Sets default graph normalization mode. Accepts "dB" or "Hz"
@@ -47,14 +47,14 @@ const  preference_bounds_name = "Preference Bounds RAW", // Preference bounds na
        preference_bounds_dir = "assets/pref_bounds/",    // Preference bounds directory
        preference_bounds_startup = false,           // If true, preference bounds are displayed on startup
        PHONE_BOOK = "phone_book_hp.json",           // Phone book file path & name
-       default_DF_name = "KEMAR DF (KB50xx) Target",    // Default RAW DF name
+       default_DF_name = "KEMAR DF (KB50xx)",    // Default RAW DF name
        dfBaseline = true,                          // Enable REW import function
        default_bass_shelf = 0,                      // Default Custom DF bass shelf value
        default_tilt = -1.0,                         // Default Custom DF tilt value
        default_ear = 0,                             // Default Custom DF ear gain value
        default_treble = 0,                          // Default Custom DF treble gain value
-       tiltableTargets = ["KEMAR DF (KB50xx) Target"],  // Targets that are allowed to be tilted
-       compTargets = ["KEMAR DF (KB50xx) Target"],      // Targets that are allowed to be used for compensation
+       tiltableTargets = ["KEMAR DF (KB50xx)"],  // Targets that are allowed to be tilted
+       compTargets = ["KEMAR DF (KB50xx)"],      // Targets that are allowed to be used for compensation
        allowCreatorSupport = false;                 // Allow the creator to have a button top right to support them
 
 
