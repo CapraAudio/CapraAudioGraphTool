@@ -53,8 +53,8 @@ const  preference_bounds_name = "Preference Bounds RAW", // Preference bounds na
        default_tilt = -1.0,                         // Default Custom DF tilt value
        default_ear = 0,                             // Default Custom DF ear gain value
        default_treble = 0,                          // Default Custom DF treble gain value
-       tiltableTargets = ["KEMAR DF KB50xx"],  // Targets that are allowed to be tilted
-       compTargets = ["KEMAR DF KB50xx"],      // Targets that are allowed to be used for compensation
+       tiltableTargets = ["KEMAR DF (KB50xx) Target"],  // Targets that are allowed to be tilted
+       compTargets = ["KEMAR DF (KB50xx) Target"],      // Targets that are allowed to be used for compensation
        allowCreatorSupport = false;                 // Allow the creator to have a button top right to support them
 
 
