@@ -39,7 +39,7 @@ const init_phones = ["KEMAR DF (KB50xx)", "Ouroboros"], // Optional. Which graph
 
 // Specify which targets to display
 const targets = [
-    { type:"HRTF",    files:["KEMAR DF (KB50xx) Target"] },
+    { type:"HRTF",    files:["KEMAR DF (KB50xx)"] },
 ];
 
 // Haruto's Addons
