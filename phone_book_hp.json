@@ -102,6 +102,18 @@
 		]
 	},
 	{
+        "name": "Audio Technica",
+        "phones": [
+            {
+                "name":"R70xa",
+                "file":["R70XA"],
+                "suffix":["(S1 | Brian)"],
+                "reviewScore": "",
+                "shopLink": ""
+            }
+        ]
+    },
+	{
         "name": "Aurorus Audio",
         "phones": [
 			{
